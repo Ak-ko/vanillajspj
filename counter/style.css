@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    overflow:hidden;
+}
+
+main {    
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+main h2{
+    font-size:35px;
+}
+
+.number {
+    font-size:50px;
+}
+
+.btn {
+    margin-top:30px;
+    padding:5px 10px;
+    border-radius:4px;
+
+    border:none;
+    background:none;
+
+    border:2px solid #000;
+    font-weight:bold;
+}
+
+.btn:nth-child(2){
+    margin:0 10px;
+}

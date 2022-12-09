@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    overflow:hidden;
+    text-align:center;
+}
+main {
+    height:100vh;
+    font-family:sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+main .container {
+    background-color:#fff;
+    width:500px;
+    height:auto;
+
+    padding:20px;
+    box-shadow:5px 1px 10px rgba(0,0,0,0.5);
+}
+
+.title{
+    text-transform:uppercase;
+    font-style:italic;
+    text-shadow:4px 0px 1px gold;
+}
+
+#author {
+    text-decoration:underline;
+}
+
+#job {
+    font-variant:small-caps;
+    font-style:italic;
+
+    font-weight:bold;
+    letter-spacing:1.3px;
+}
+
+#person-img{
+    width:100px;
+    height:100px;
+
+    border-radius:50%;
+    border:5px solid gold;
+}
+
+.btn {
+    background:none;
+    border:none;
+}
+
+.btn:first-child, .btn:nth-child(2){
+    color:rgb(143, 141, 34);
+    font-size:20px;
+    font-weight:bold;
+
+    border:1px solid black;    
+    margin:0px 5px;
+}
+
+.button-container{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.randombtn{
+    font-weight:bold;
+    letter-spacing:1.3px;
+
+    padding:5px;
+    border:1px solid gold;
+    border-radius:10px;
+
+    background-color:#f4f4f4;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+    
+    transition:1s;
+}
+
+.randombtn:active{
+    transform:translateY(5px);
+}
